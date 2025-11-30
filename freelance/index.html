@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gym Website Demo</title>
+
+  <!-- Default Theme -->
+  <link id="themeStylesheet" rel="stylesheet" href="light.css">
+</head>
+
+<body>
+  <header class="hero">
+    <h1>TITANIUM GYM</h1>
+    <p>Transform Your Body. Transform Your Life.</p>
+
+    <div class="theme-buttons">
+      <button onclick="switchTheme('light.css')">Light</button>
+      <button onclick="switchTheme('dark.css')">Dark</button>
+      <button onclick="switchTheme('gradient.css')">Gradient</button>
+    </div>
+  </header>
+
+  <section class="about">
+    <h2>About Us</h2>
+    <p>
+      We are a modern fitness center offering strength training, cardio workouts,
+      CrossFit sessions, and personal coaching.
+    </p>
+  </section>
+
+  <section class="plans">
+    <h2>Membership Plans</h2>
+    <div class="plan-container">
+      <div class="plan">
+        <h3>Basic</h3>
+        <p>₹799/month</p>
+      </div>
+
+      <div class="plan recommended">
+        <h3>Standard</h3>
+        <p>₹1299/month</p>
+      </div>
+
+      <div class="plan">
+        <h3>Premium</h3>
+        <p>₹1799/month</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Email">
+    <textarea placeholder="Message"></textarea>
+    <button>Send Message</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

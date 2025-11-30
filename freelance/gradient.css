@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0011ff, #ff0000);
+  color: #fff;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 70px 20px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 8px;
+  color: #f2f2f2;
+}
+
+.theme-buttons button {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+  border-radius: 4px;
+}
+
+/* ABOUT + SECTIONS */
+.about, .plans, .contact {
+  padding: 50px 20px;
+  text-align: center;
+  background: rgba(0,0,0,0.15);
+  margin: 20px;
+  border-radius: 12px;
+}
+
+/* PLANS */
+.plan-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.plan {
+  padding: 20px;
+  border: 1px solid #fff;
+  width: 180px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(5px);
+}
+
+.recommended {
+  background: rgba(255,255,255,0.9);
+  color: #000;
+}
+
+/* CONTACT */
+.contact input,
+.contact textarea,
+.contact button {
+  display: block;
+  width: 80%;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}

@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0d0d0d;
+  color: #ffffff;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 70px 20px;
+  background: #111;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 8px;
+  color: #aaa;
+}
+
+.theme-buttons button {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+  border-radius: 4px;
+}
+
+/* ABOUT + SECTIONS */
+.about, .plans, .contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* PLANS */
+.plan-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.plan {
+  padding: 20px;
+  border: 1px solid #333;
+  width: 180px;
+  border-radius: 8px;
+  background: #1a1a1a;
+}
+
+.recommended {
+  background: #fff;
+  color: #000;
+}
+
+/* CONTACT */
+.contact input,
+.contact textarea,
+.contact button {
+  display: block;
+  width: 80%;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "you": "help"
+  },
+  {
+    "bot": "Commands:\n- help / commands: show this\n- joke: hear a joke\n- time: current time\n- history: show chat history\n- bye / exit: quit"
+  },
+  {
+    "you": "joke"
+  },
+  {
+    "bot": "I would tell you a UDP joke, but you might not get it."
+  },
+  {
+    "you": "time"
+  },
+  {
+    "bot": "Current time: 2025-11-29 15:43:01"
+  },
+  {
+    "you": "history"
+  },
+  {
+    "you": "bye"
+  },
+  {
+    "bot": "See ya \u2014 crush that hackathon!"
+  }
+]
